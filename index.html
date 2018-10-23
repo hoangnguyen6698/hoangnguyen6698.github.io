@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Webchamhoine
+    </title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Chamhoine</a>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <section class="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="logo"><img src="img/logo1.png" alt="logo" width="200"></p>
+                        <h1>Hello every one, i'm Hoang <br> Welcome to my website :)</h1>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img class="avatar" src="img/kk.jpg" alt="avatar" width='200px'>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="box">
+                            <div class="title">
+                                <h5>
+                                    "Not everyone is meant to be in your future. Some people are just passing through to teach you lessons in life." <br>
+                                </h5>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h5>
+                            I'm 20, i'm a student. I'm born in Long An province and live in here. I like to draw, read book, music, travel and do many other funny things with my friend.
+                        </h5>
+                        <p>
+                            <a href="about.html" class="btn btn-light">See more</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>Contact with me</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-6">
+                        <img src="img/iconcall.png" alt="" class="pluid"> <br> Call me 0969497127
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <img src="img/iconfb.png" alt="" class="pluid"><br> Add me on facebook: https://www.facebook.com/lehoang.nguyen.35513
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-6">
+                        <img src="img/iconmail.png" alt="" class="pluid"> <br> Contact with me: hoangnguyen060698@gmail.com
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <img src="img/iconyoutube.png" alt="" class="pluid"><br> Watch my cartoon: https://www.youtube.com/channel/UC0yP6fdPqKSJcvD1wt-Rw7w/videos?view_as=subscriber
+                    </div>
+                </div>
+            </div>
+    </main>
+    </section>
+
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+
+    <script>
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+            } else {
+                document.getElementById("myBtn").style.display = "none";
+            }
+        }
+
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

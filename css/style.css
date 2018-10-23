@@ -1,0 +1,172 @@
+   .home {
+       background: url(../img/background1.jpg);
+       height: 100vh;
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 5rem 0;
+       background-attachment: fixed;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+   }
+   
+   .home h1 {
+       text-align: center;
+       font-weight: bold;
+       color: #fff;
+       ;
+       padding: 1rem;
+   }
+   
+   .services .btn-light:hover {
+       padding: 0.5rem 1.5rem;
+       background: rgb(0, 0, 0);
+       box-shadow: 0 -4px 0 0 whitesmoke inset;
+       color: #fff;
+   }
+   
+   .services .btn-light {
+       padding: 0.5rem 1.5rem;
+       background: #fffdfd;
+       box-shadow: 0 -4px 0 0 rgb(3, 3, 3) inset;
+       color: rgb(0, 0, 0);
+   }
+   
+   .contact {
+       background: rgb(207, 207, 207);
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 5rem 0;
+   }
+   
+   .contact h2 {
+       text-align: center;
+       font-weight: bold;
+       color: rgb(0, 0, 0);
+       position: relative;
+   }
+   
+   .contact h2:before {
+       content: '';
+       height: 1px;
+       display: block;
+       position: absolute;
+       background: rgb(0, 0, 0);
+       width: 200px;
+       left: 50%;
+       bottom: -8px;
+       transform: translate(-50%);
+   }
+   
+   .services {
+       background: url(../img/backgroundabout1.jpg);
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 5rem 0;
+       background-attachment: fixed;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
+   }
+   
+   .services .container .row .col {
+       color: #fff
+   }
+   
+   .about .container .row .col-sm-4 .avatar {
+       border-radius: 50%;
+   }
+   
+   .about .container .row .col-sm-8 .box .title {
+       color: black;
+   }
+   
+   .about {
+       background: rgb(207, 207, 207);
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 5rem 0;
+       background-attachment: fixed;
+   }
+   
+   .gallery {
+       margin: 5px;
+       border: 3px solid rgb(0, 0, 0);
+       float: left;
+       width: 300px;
+       height: 250px;
+       justify-content: center;
+       text-align: center;
+   }
+   
+   .gallery:hover {
+       border: 10px solid rgb(255, 255, 255);
+   }
+   
+   .gallery img {
+       width: 100%;
+       height: 100%;
+   }
+   
+   .album {
+       background: url(../img/backgroundabout1.jpg);
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 5rem 0;
+       background-repeat: no-repeat;
+       background-position: center center;
+       background-attachment: fixed;
+       background-size: cover;
+   }
+   
+   .album .meandmyfriends .row .gallery .desc {
+       color: #fff
+   }
+   
+   .album .meandmyfriends .row .col .title {
+       color: #fff
+   }
+   
+   .album .mywork .row .col .title2 {
+       color: #fff
+   }
+   
+   .mywork {
+       display: flex;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       padding: 5rem 0;
+   }
+   
+   #myBtn {
+       display: none;
+       position: fixed;
+       bottom: 20px;
+       right: 30px;
+       z-index: 99;
+       font-size: 18px;
+       border: none;
+       outline: none;
+       background-color: black;
+       color: white;
+       box-shadow: 0 -4px 0 0 rgb(255, 255, 255) inset;
+       cursor: pointer;
+       padding: 15px;
+   }
+   
+   #myBtn:hover {
+       background-color: white;
+       border-radius: 0rem;
+       box-shadow: 0 -4px 0 0 rgb(3, 3, 3) inset;
+       color: rgb(0, 0, 0);
+   }
